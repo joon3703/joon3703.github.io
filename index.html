@@ -1,20 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <title>Joonwoo's Bio</title>
+    <style>
+        html, body {
+          margin: 0;
+          padding 0;
+        }
+        body {
+          background: #EFEEE7;
+          color: #473634;
+        }
+
+        a {
+          color:#D4304C;
+        }
+        header h1 {
+          text-align: center;
+          background: #333333;
+          color: white;
+          margin: 0;
+          padding: .5em;
+        }
+        .content {
+          padding: 0 1em;
+          overflow: auto;
+        }
+        .bio {
+          float: left;
+          width: 75%;
+          overflow: auto;
+          
+        }
+        .contact {
+          float: right;
+          width: 25%;
+        }
+    
+        .bio img {
+          float: left;
+          padding-right: 1em;
+          padding-bottom: 1em;
+        }
+      </style>
 
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <h2>Joonwoo Choi</h2>
-    <img src="joonwoo.jpg" height="200px" width="200px" alt="joonwoo">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <h2>Contact Info</h2>
-    <ul>
-        <li><strong>Email:</strong>joon3703@gmail.com</li>
-        <li><strong>Github:</strong><a href="https://github.com/joon3703/github.io">joon3703</a></li>
-        <li><strong>Portfolio:</strong>Coming Soon</li>
-    </ul>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+    <div class="content">
+        <section class="bio">
+            <h2>Joonwoo Choi</h2>
+            <img src="joonwoo.jpg" height="200px" width="200px" alt="joonwoo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Info</h2>
+            <ul>
+                <li><strong>Email:</strong>joon3703@gmail.com</li>
+                <li><strong>Github:</strong><a href="https://github.com/joon3703/github.io">joon3703</a></li>
+                <li><strong>Portfolio:</strong>Coming Soon</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
